@@ -1,0 +1,24 @@
+{
+  "attack": "autoattack",
+  "input_defense": "disco",
+  "model_name": "Salman2020Do_R50",
+  "disco_path": [
+    "/data8/john/inr_adv_defense/disco_github/training/save/imagenet/pgd/imnet_mlp/trial_2/epoch-3.pth"
+  ],
+  "stl_npy_name": "64_p8_lm0.1",
+  "debug": false,
+  "trial": "1",
+  "batch_size": 10,
+  "norm": "Linf",
+  "dataset": "imagenet",
+  "repeat": 1
+}
+==============
+0 Evaluation
+Clean accuracy: 63.6600%
+Robust accuracy: 50.5600%
+==============
+Avg clean accuracy: 63.6600%
+Std clean accuracy: 0.0000%
+Avg robust accuracy: 50.5600%
+Std robust accuracy: 0.0000%

@@ -1,0 +1,24 @@
+{
+  "attack": "ffgsm",
+  "input_defense": "disco",
+  "model_name": "Standard_R50",
+  "disco_path": [
+    "/data8/john/inr_adv_defense/disco_github/training/save/imagenet/pgd/imnet_mlp/trial_2/epoch-3.pth"
+  ],
+  "stl_npy_name": "64_p8_lm0.1",
+  "debug": false,
+  "trial": "1",
+  "batch_size": 10,
+  "norm": "Linf",
+  "dataset": "imagenet",
+  "repeat": 1
+}
+==============
+0 Evaluation
+Clean accuracy: 72.6400%
+Robust accuracy: 56.9800%
+==============
+Avg clean accuracy: 72.6400%
+Std clean accuracy: 0.0000%
+Avg robust accuracy: 56.9800%
+Std robust accuracy: 0.0000%

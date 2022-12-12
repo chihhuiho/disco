@@ -1,0 +1,22 @@
+{
+  "attack": "autoattack",
+  "input_defense": "bit_depth_reduction",
+  "model_name": "Standard_R50",
+  "disco_path": null,
+  "stl_npy_name": "64_p8_lm0.1",
+  "debug": false,
+  "trial": "1",
+  "batch_size": 100,
+  "norm": "Linf",
+  "dataset": "imagenet",
+  "repeat": 1
+}
+==============
+0 Evaluation
+Clean accuracy: 73.8200%
+Robust accuracy: 1.9000%
+==============
+Avg clean accuracy: 73.8200%
+Std clean accuracy: 0.0000%
+Avg robust accuracy: 1.9000%
+Std robust accuracy: 0.0000%

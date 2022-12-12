@@ -1,0 +1,22 @@
+{
+  "attack": "FGSM",
+  "input_defense": "no_input_defense",
+  "model_name": "Salman2020Do_R50",
+  "disco_path": null,
+  "stl_npy_name": "64_p8_lm0.1",
+  "debug": false,
+  "trial": "1",
+  "batch_size": 10,
+  "norm": "Linf",
+  "dataset": "imagenet",
+  "repeat": 1
+}
+==============
+0 Evaluation
+Clean accuracy: 64.1000%
+Robust accuracy: 43.4800%
+==============
+Avg clean accuracy: 64.1000%
+Std clean accuracy: 0.0000%
+Avg robust accuracy: 43.4800%
+Std robust accuracy: 0.0000%
